@@ -43,3 +43,6 @@
 # AddHandler application/x-httpd-php .php .htm .html
 ##
 ##s
+# BEGIN WordPress
+
+# END WordPress

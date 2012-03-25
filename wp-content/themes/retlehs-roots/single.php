@@ -7,8 +7,9 @@
 
 
         <?php get_template_part('loop', 'single'); ?>
+        hi
 
-        <?php if ($post->post_type === 'campaign') { ?>
+        <?php if ($post->post_type === 'campaigns') { ?>
 
         <h2>Take Action!</h2>
 

@@ -23,8 +23,7 @@ $(function(){
     
     //$("ul#main_nav li ul li:has(ul)").find("a:first").append(" &raquo; ");
 		
-		$('ul#main_nav a:first').css('padding-left','0');	
+	$('ul#main_nav a:first').css('padding-left','0');	
 		
-		$('#example').tooltip(options);
-
+	$('#social_icons a').tooltip();
 });

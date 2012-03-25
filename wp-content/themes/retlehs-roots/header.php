@@ -41,7 +41,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="<?php echo home_url(); ?>/">Minnesota Coalition <span>for the</span> Homeless</a>
+          <a class="brand" href="<?php echo home_url(); ?>/"><img src="/img/logo.png" alt="Minnesota Coalition for the Homeless" /></a>
           <div id="social_icons">
             <a class="espanol" href="">Se Habla Español</a>
           	<a href="/index.php?p=386" rel="tooltip" title="Subscribe To Email"><img src="/img/subscribe-email.png" alt="" id="subscribe_email" /></a>

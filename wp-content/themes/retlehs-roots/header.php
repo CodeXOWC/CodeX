@@ -85,5 +85,54 @@
     </header>
   <?php roots_header_after(); ?>
 
+  <section id="campaign_box">
+    <ul class="span12">
+      <li class="campaign1 campaign-blue">
+        <a href="">
+            <span class="vertical-box">
+              <strong>Campaign will go into this space</strong>
+              <small>
+                .......................<br />
+                learn more
+              </small>
+            </span>
+        </a>
+      </li>
+      <li class="campaign2 campaign-orange">
+        <a href="">
+            <span class="vertical-box">
+              <strong>Campaign will go into this space</strong>
+              <small>
+                .......................<br />
+                learn more
+              </small>
+            </span>
+        </a>
+      </li>
+      <li class="campaign3 campaign-purple">
+        <a href="">
+            <span class="vertical-box">
+              <strong>Campaign will go into this space</strong>
+              <small>
+                .......................<br />
+                learn more
+              </small>
+            </span>
+        </a>
+      </li>
+      <li class="campaign4 campaign-green">
+        <a href="">
+            <span class="vertical-box">
+              <strong>Campaign will go into this space</strong>
+              <small>
+                .......................<br />
+                learn more
+              </small>
+            </span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
   <?php roots_wrap_before(); ?>
   <div id="wrap" class="<?php echo WRAP_CLASSES; ?>" role="document">

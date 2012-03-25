@@ -73,7 +73,7 @@
                  </ul>
               </li>
               <li><a href="#"><?php echo __('Donate')?></a></li>
-              <li><a href="#"><?php echo __('In The News')?></a></li>
+              <li><a href="#"><?php echo _e('In The News')?></a></li>
               <li><a href="#"><?php echo __('Get Involved')?></a></li>
               <li><a href="#"><?php echo __('Current Campaigns')?></a></li>
            </ul>

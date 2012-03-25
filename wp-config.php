@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'testsite_wpadmin');
+define('DB_NAME', 'wp_homeless');
 
 /** MySQL database username */
-define('DB_USER', 'testsite_wpadmin');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'testsite_wpadmin');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -69,7 +69,13 @@ $table_prefix  = 'wp_';
  * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
  * language support.
  */
-define('WPLANG', '');
+if (0===strpos($_SERVER["HTTP_HOST"],'es.') || 0===strpos($_SERVER["REQUEST_URI"],'/es/')) {
+	define('WPLANG', 'es_ES');
+	$_SERVER["REQUEST_URI"]=str_replace('/es/','',$_SERVER["REQUEST_URI"]);
+} else {
+	define('WPLANG', '');
+}
+
 
 /**
  * For developers: WordPress debugging mode.

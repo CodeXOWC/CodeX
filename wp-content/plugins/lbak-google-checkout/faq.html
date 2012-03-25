@@ -1,0 +1,73 @@
+<a href="#You&#39;re awesome. Can I give you some money?">You're awesome. Can I give you some money?</a><br><br><a href="#How do I set up the plugin?">
+        How do I set up the plugin?</a><br><br><a href="#What does Sandbox Mode mean?">
+        What does Sandbox Mode mean?</a><br><br><a href="#How do I find my Merchant ID?">
+        How do I find my Merchant ID?</a><br><br><a href="#What currency should I use?">
+        What currency should I use?</a><br><br><a href="#How do I add a product to my blog?">
+        How do I add a product to my blog?</a><br><br><a href="#What is a shortcode and how do I use one?">
+        What is a shortcode and how do I use one?</a><br><br><a href="#Arg! Something isn't working! Help?!">
+        Arg! Something isn't working! Help?!</a><br><br><a href="#When I add products they don't show up in the products list! What gives?">
+        When I add products they don't show up in the products list! What gives?</a><br><br><a href="#What's all this about usage data?">
+        What's all this about usage data?</a><br><br><a href="#Still stuck?">Still stuck? Get in
+        touch!</a><br><br><h2>Answers</h2><div id="You&#39;re awesome. Can I give you some money?"
+        class="question"><h3>You're awesome. Can I give you some money?</h3><div class="faq-content">You're too kind! Of
+            course you can, there is a Donate link at the top of this page that will take you to a page with a link to
+            my PayPal on it. Donations are greatly appreciated and will find you a place in my heart. Right next to my
+            love of programming and The Big Bang Theory. <br><br><a href="#top" class="button-secondary">Back to top</a></div></div><div id="How do I set up the plugin?" class="question"><h3>How do I set up the plugin?</h3><div class="faq-content">The first thing you need to use this plugin is a Google Checkout account. Head on over to <a href="http://checkout.google.com/" target="_blank">Google Checkout</a> and sign in with your Google Account. Once you have an account you need to set up your bank account and verify it (bank account verification can take a few days so don't worry if it doesn't happen instantly).<br>
+<br>
+Next, you should set up your tax settings. This is done in your Google Checkout account under the Preferences in the Settings tab. This plugin does not define any taxing rules so this makes it your sole responsibility to ensure you are taxing your customers correctly.<br>
+<br>
+Next you will want to look into setting up shipping. You can do this either in your Google Checkout account or on each individual item in the plugin. If you are going to do this via your Google Checkout account, you will want to go to Settings &gt; Shipping Setup and follow the instructions there. <br>
+<br>
+Lastly, you need to enter your merchant ID. The plugin will not function at all without your merchant ID. This can be
+found either in the top right hand corner of the screen when you are logged in to your Google Checkout account or under
+Profile in the Settings tab. If you are wanting to use Sandbox Mode to test out your system please note that your
+sandbox merchant ID will be different and there is a box in this plugin's settings page where you can specify this.
+<br><br><a href="#top" class="button-secondary">Back to top</a></div></div><div id="What does Sandbox Mode mean?" class="question"><h3>What does Sandbox Mode mean?</h3><div class="faq-content">Sandbox Mode is something offered by Google to let you test your Google Checkout system without accidentally processing any orders. You can read more on it <a href="https://checkout.google.com/support/sell/bin/answer.py?hl=en-uk&answer=134469" target="_blank">here</a>. <br>
+<br>
+(In the "Moving to Production" section of that link, don't worry about the steps they specify. All of that is handled by
+the plugin provided you have entered the correct merchant ID).<br><br><a href="#top" class="button-secondary">Back to
+    top</a></div></div><div id="How do I find my Merchant ID?" class="question"><h3>How do I find my Merchant
+ID?</h3><div class="faq-content">Your Merchant ID can be found either in the top right hand side of your screen when you
+are logged into your Google Checkout account or under "Profile" in the Settings tab of your Google Checkout account. It
+will be a long (~15 digits) number. <br><br><a href="#top" class="button-secondary">Back to top</a></div></div><div
+id="What currency should I use?" class="question"><h3>What currency should I use?</h3><div class="faq-content">I believe
+    that Google Checkout only currently supports the UK and the US. I could be wrong. For now it is advised you use GBP
+    if you are in the UK and USD if you are in the US. If you have any further info on this I'd be glad to hear about
+    it, my email is samwho@lbak.co.uk <br><br><a href="#top" class="button-secondary">Back to top</a></div></div><div id="How do I add a product to my blog?" class="question"><h3>How do I add a product to my blog?</h3><div class="faq-content">To add a product to your database and then your blog there are a few easy steps: <br>
+<br>
+1. Click on "Add Products" at the top of this screen and fill out the form. <br>
+2. When you have filled the form out and clicked "Add", click on "View Products" at the top of this page, find the product you just added and click "Get Shortcode". <br>
+3. Paste this shortcode into a blog post and viola! If you have configured the plugin correctly then your users should
+now be able to purchase your product. <br><br><a href="#top" class="button-secondary">Back to top</a></div></div><div id="What is a shortcode and how do I use one?" class="question"><h3>What is a shortcode and how do I use one?</h3><div class="faq-content">A shortcode is a bit of text you can put in your posts that get filtered and changed into something useful. For example, a lot of forums use "bbcode" which stands for bulletin board code, which is a type of short code. They have tags like [b] for bold, [i] for italic and so on. <br>
+<br>
+LBAK Google Checkout uses its own shortcode system to let you easily post your products to your blog. Simply enter:<br>
+<blockquote><br>
+ [checkout product="1"]<br>
+</blockquote><br>
+To post the product with an ID of 1 to your blog. The product attribute also supports lists of comma separated values for posting multiple products to your blog. Example:<br>
+<blockquote><br>
+ [checkout product="1, 2, 23, 5"]<br>
+</blockquote><br>
+This will print out 4 products with the respective 1, 2, 23 and 5 product IDs. Product also supports the "all" value which is seld explanatory . You can also print out everything in a category by specifying the category attribute:<br>
+<blockquote><br>
+ [checkout category="Example"]<br>
+</blockquote><br>
+This will print out everything in the category "Example". You can combine this with the product attribute to print out items not in the specified category. <br>
+<br>
+Other attributes:<br>
+<b>price</b> - let's you specify pricing rules such as price="&gt;20" will only print out products that cost more than 20 of whatever currency it is you are trading in. You can use &gt;, &lt;, &gt;=, &lt;= or specify a range like "x-y" with x and y being 2 numbers, eg "20-30". This can only be used in conjunction with product and or category. Just typing [checkout price="&lt;20"] will show nothing, you would have to do [checkout product="all" price="&lt;20"] to display all of your products under 20 of whatever currency you're trading in. <br>
+<br>
+<b>style</b> - The style attribute will apply CSS styles to the outer most div on the product. This is useful for
+specifying things like size: [checkout product="all" style="width: 50%"] for example. <br><br><a href="#top" class="button-secondary">Back to top</a></div></div><div id="Arg! Something isn&#39;t working! Help?!" class="question"><h3>Arg! Something isn't working! Help?!</h3><div class="faq-content">A few users have noticed that the plugin breaks when they update. This is because some settings don't always get carried across in the update process. Fortunately, the fix is simple:<br>
+<br>
+Go to the Plugins menu, find the LBAK Google Checkout plugin and deactivate, then reactive it. That should fix most
+problems.<br><br><a href="#top" class="button-secondary">Back to top</a></div></div><div id="When I add products they don&#39;t show up in the products list! What gives?" class="question"><h3>When I add products they don't show up in the products list! What gives?</h3><div class="faq-content">A lot of people have been reporting this to me recently and I believe I have cornered the cause. When upgrading from a version before multiple pricings to a version after it, the database does not properly add the new columns.<br>
+<br>
+The fix is to deactivate the plugin and then reactivate it (don't worry, this will not affect your product database). this should run the update script and add the right columns to your database and fix the problem.<br>
+<br>
+If it does not, please contact me on samwho@lbak.co.uk and I will try and fix the problem ASAP :)<br><br><a href="#top" class="button-secondary">Back to top</a></div></div><div id="What&#39;s all this about usage data?" class="question"><h3>What's all this about usage data?</h3><div class="faq-content">The LBAK usage statistics is a feature released in version 1.3 to help me get a better idea of who is using the plugin, what they are using it for and primarily for reporting errors back to me.<br>
+<br>
+The information that gets sent to my server varies. At various points in the code I call a function that sends a message to my server and that usually contains your website URL, the page you were viewing, the data that was sent to that page, the time it happened, what PHP version you were using and then a customised message for that log report.<br>
+<br>
+By default you are opted in to sending this data but it is easy to turn it off. Just untick the box labelled "Send usage
+data?" and data will not be sent to my server.<br><br><a href="#top" class="button-secondary">Back to top</a></div></div><div id="Still stuck?" class="question">

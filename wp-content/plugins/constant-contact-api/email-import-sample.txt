@@ -1,0 +1,4 @@
+email address, first name, last name, email type
+html@domain.com, John, Smith, HTML
+text@domain.com, Jane, Smith, Text
+blank.email.type.still.needs.comma.after.last.name@domain.com, John, Doe,

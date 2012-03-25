@@ -1,0 +1,32 @@
+a.toplevel_page_constant-contact-api {
+	white-space: nowrap;
+	font-size: .975em!important;
+}
+.toplevel_page_constant-contact-api div.widefat {
+	background-color: white;
+}
+.toplevel_page_constant-contact-api .widefat .wrap {
+	padding: 10px;
+}
+.wrap h2.cc_logo {
+	min-height: 90px;
+	line-height:90px;
+	padding-left:179px;
+	position:relative;
+	background: url(images/logo.gif) left 20px no-repeat;
+	width: 50%;
+}
+.wrap a.cc_logo,
+a.cc_logo {
+	position:absolute;
+	width:149px;
+	left:0;
+	top:20px;
+	height:70px;
+	text-indent:-9999px;
+	overflow:hidden;
+	line-height: 1;
+}
+.constant-contact_page_constant-contact-contacts div.wrap {
+	margin-bottom: 3em!important;
+}

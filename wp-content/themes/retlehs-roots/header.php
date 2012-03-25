@@ -44,7 +44,7 @@
           <a class="brand" href="<?php echo home_url(); ?>/">Minnesota Coalition <span>for the</span> Homeless</a>
           <div id="social_icons">
             <a class="espanol" href="">Se Habla Español</a>
-          	<a href="#" rel="tooltip" title="Subscribe To Email"><img src="/img/subscribe-email.png" alt="" id="subscribe_email" /></a>
+          	<a href="/index.php?p=386" rel="tooltip" title="Subscribe To Email"><img src="/img/subscribe-email.png" alt="" id="subscribe_email" /></a>
             <a href="http://www.facebook.com/HomelessCoalition" target="_blank" rel="tooltip" title="Facebook"><img src="/img/facebook-icon.png" alt="" id="facebook_icon" /></a>
             <a href="https://twitter.com/#!/MNHomelessCo" target="_blank" rel="tooltip" title="Twitter"><img src="/img/twitter-icon.png" alt="" id="twitter_icon" /></a>
             <a href="http://www.youtube.com/user/MNCoalition4Homeless" target="_blank" rel="tooltip" title="YouTube"><img src="/img/you-tube-icon.png" alt="" id="youtube_icon" /></a>

@@ -33,6 +33,14 @@
 		font-family: 'Inika', serif;
 		color: #fff;
 
+		&:visited, &:link {
+			text-decoration: none;
+		}
+
+		&:hover, &:active {
+			text-decoration: underline;
+		}
+
 		.vertical-box {
 			.flex();
 			padding: 0 percentage(55/240);
@@ -50,6 +58,20 @@
 			font-size: 14px;
 			font-family: 'Open Sans', sans-serif;
 			font-style: italic;
+		}
+	}
+}
+
+.ie9, .lt-ie9 {
+	#campaign_box {
+		a {
+			.vertical-box {
+				padding: 40px 10px;
+			}
+
+			&:hover {
+				cursor: pointer;
+			}
 		}
 	}
 }

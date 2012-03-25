@@ -1,4 +1,10 @@
 <?php get_header(); ?>
+  <section id="get_help">
+    <ul>
+        <li class="span3"><a href="">How Can I Help?</a></li>
+        <li class="span3"><a href="">Get Help</a></li>
+    </ul>
+  </section>
   <?php roots_content_before(); ?>
     <div id="content" class="<?php echo CONTAINER_CLASSES; ?>">
     <?php roots_main_before(); ?>

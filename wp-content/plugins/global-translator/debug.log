@@ -10,3 +10,17 @@
 2012-03-25 01:08:50  [from: 127.0.0.1|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11] - gltr_get_page_content :: Connecting to engine for url:http://local.mnhomelesscoalition.org/i-want-comments-on-this/
 2012-03-25 01:08:50  [from: 127.0.0.1|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11] - gltr_clean_url_to_translate :: [REWRITEON] self url:http://local.mnhomelesscoalition.org/no/i-want-comments-on-this/ | url_to_translate:http://local.mnhomelesscoalition.org/i-want-comments-on-this/
 2012-03-25 01:08:50  [from: 127.0.0.1|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11] - gltr_is_connection_allowed :: Blocking connection request: delta=18 secs
+2012-03-25 08:44:54  [from: 160.94.191.199|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11] - gltr_clean_url_to_translate :: [REWRITEON] self url:http://160.94.191.95/it/sample-page/ | url_to_translate:http://160.94.191.95/sample-page/
+2012-03-25 08:44:54  [from: 160.94.191.199|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11] - gltr_get_page_content :: Connecting to engine for url:http://160.94.191.95/sample-page/
+2012-03-25 08:44:54  [from: 160.94.191.199|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11] - gltr_clean_url_to_translate :: [REWRITEON] self url:http://160.94.191.95/it/sample-page/ | url_to_translate:http://160.94.191.95/sample-page/
+2012-03-25 08:44:54  [from: 160.94.191.199|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11] - gltr_is_connection_allowed :: Allowing connection request: delta=338 secs
+2012-03-25 08:44:56  [from: 160.94.191.199|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11] - gltr_patch_translation_url :: FreeTransl Patched: http://fets5.freetranslation.com/?sequence=core&language=English/Italian&url=http://160.94.191.95/sample-page/&username=&password=
+2012-03-25 08:44:59  [from: 160.94.191.199|Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11] - Bad translated content for url: http://160.94.191.95/sample-page/ 
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head><base href="http://160.94.191.95/sample-page/">
+  <meta charset=windows-1252"utf-8">
+

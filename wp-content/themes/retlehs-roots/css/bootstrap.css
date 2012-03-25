@@ -685,13 +685,16 @@ table.ai1ec-week-view-original.tablescroll_body,table.ai1ec-week-view-original.t
 .ai1ec-subscribe{clear:both;}
 .ai1ec-subscribe-filtered{display:none;}
 .ai1ec-filter-selector-container:hover>.ai1ec-filter-selector{display:block;}
-@media (max-width:480px){ul.ai1ec-view-tabs{display:none;} h2.ai1ec-calendar-title{float:none;margin:25px 0 0 !important;} .ai1ec-title-buttons{margin:0 0 25px;}.ai1ec-title-buttons .ai1ec-button{display:block;padding:12.5px 0;} ul.ai1ec-pagination{margin:0 !important;float:none;} .ai1ec-pagination li{margin-bottom:12.5px;width:25%;} .ai1ec-action-month .ai1ec-pagination a{width:100%;padding:12.5px 0;font-size:11px;} #ai1ec-prev-year,#ai1ec-next-year{width:100%;padding:12.5px 0;}}#campaign_box{background:url(../img/bg-campaign.jpg) center center;}#campaign_box ul{height:481px;list-style:none;margin:0;}
-#campaign_box li{margin-top:40.12474012474013%;}
-#campaign_box .campaign1{margin-left:0;}
-#campaign_box a{display:-webkit-box;display:-moz-box;display:box;-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-box-align:center;-moz-box-align:center;box-align:center;height:240px;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;border:15px solid #84e0e3;padding:0 4.824561403508771%;text-align:center;font-weight:bold;font-size:27px;font-family:'Inika',serif;color:#fff;background:rgba(132, 224, 227, 0.3);}#campaign_box a .vertical-box{-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;}
-#campaign_box a strong{display:block;line-height:30px;}
+@media (max-width:480px){ul.ai1ec-view-tabs{display:none;} h2.ai1ec-calendar-title{float:none;margin:25px 0 0 !important;} .ai1ec-title-buttons{margin:0 0 25px;}.ai1ec-title-buttons .ai1ec-button{display:block;padding:12.5px 0;} ul.ai1ec-pagination{margin:0 !important;float:none;} .ai1ec-pagination li{margin-bottom:12.5px;width:25%;} .ai1ec-action-month .ai1ec-pagination a{width:100%;padding:12.5px 0;font-size:11px;} #ai1ec-prev-year,#ai1ec-next-year{width:100%;padding:12.5px 0;}}#campaign_box{background:#000000 url(../img/bg-campaign.jpg) center center;}#campaign_box ul{float:none;height:481px;list-style:none;margin:0 auto;}
+#campaign_box li{float:left;height:225px;width:225px;margin-left:80px;}#campaign_box li.campaign1{margin-left:0;}
+#campaign_box a{display:-webkit-box;display:-moz-box;display:box;-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-box-align:center;-moz-box-align:center;box-align:center;height:100%;width:100%;margin-top:80.41666666666667%;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;border-width:15px;border-style:solid;text-align:center;font-weight:bold;font-size:27px;font-family:'Inika',serif;color:#fff;}#campaign_box a .vertical-box{-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;padding:0 22.916666666666664%;}
+#campaign_box a strong{display:block;line-height:30px;margin:0 25px;}
 #campaign_box a small{display:block;line-height:24px;font-size:14px;font-family:'Open Sans',sans-serif;font-style:italic;}
-body{padding-top:0 !important;background:url("/img/bg-body.jpg") repeat;border-top:#2f2f2f 20px solid;}
+.campaign-blue a{border-color:#84e0e3;background:rgba(8, 51, 53, 0.6);}
+.campaign-orange a{border-color:#f4825e;background:rgba(82, 29, 12, 0.6);}
+.campaign-green a{border-color:#aee35b;background:rgba(20, 37, 2, 0.6);}
+.campaign-purple a{border-color:rgba(124, 80, 149, 0.6);background:rgba(29, 5, 43, 0.6);}
+@media (max-width:979px) and (min-width:482px){#campaign_box li{height:205px;width:205px;margin-left:90px;}#campaign_box li a{margin-top:0;} #campaign_box li.campaign1{margin-left:90px;} #campaign_box li.campaign3{clear:both;} #campaign_box li.campaign3,#campaign_box li.campaign4{margin-top:40px;}}@media (max-width:481px){#campaign_box{background:#000;}#campaign_box ul{height:auto;width:auto;} #campaign_box li{height:auto;width:auto;margin-left:0;padding:5px 0;float:none;}#campaign_box li.campaign1{margin-left:0;} #campaign_box a{margin-top:0;padding:5px 0;height:auto;width:auto;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;border-width:5px;}}body{padding-top:0 !important;background:url("/img/bg-body.jpg") repeat;border-top:#2f2f2f 20px solid;}
 .navbar-inner{padding-top:39px;background-color:transparent;background-image:none;box-shadow:none;}
 .navbar .brand{width:449px;height:71px;margin-right:225px;margin-left:0;padding:0;}
 #social_icons{float:left;padding-top:26px;}

@@ -55,32 +55,32 @@
             <input type="text" value="" name="s" id="s" class="search-query" placeholder="<?php _e('Search', 'roots'); ?> <?php bloginfo('name'); ?>">
             <input type="submit" id="searchsubmit" value="<?php _e('Search', 'roots'); ?>" class="btn">
           </form>
-          <ul id="main_nav">
+          <!--ul id="main_nav">
             <li><a href="#"><?php echo __('Home')?></a></li>
               <li><a href="index.php?page_id=12" class="parent"><?php echo __('About Us')?></a>
                 <ul>
-                  <li><a href="#">Navigation</a></li>
-                    <li><a href="#">Navigation</a></li>
-                    <li><a href="#">Navigation</a></li>
-                    <li><a href="#">Navigation</a></li>
+                    <li><a href="index.php?page_id=12">Navigation</a></li>
+                    <li><a href="index.php?page_id=12">Navigation</a></li>
+                    <li><a href="index.php?page_id=12">Navigation</a></li>
+                    <li><a href="index.php?page_id=12">Navigation</a></li>
                  </ul>
               </li>
               <li><a href="#" class="parent"><?php echo __('Homelessness')?></a>
                 <ul>
-                  <li><a href="#">Navigation</a></li>
-                    <li><a href="#">Navigation</a></li>
-                    <li><a href="#">Navigation</a></li>
-                    <li><a href="#">Navigation</a></li>
+                    <li><a href="index.php?page_id=12">Navigation</a></li>
+                    <li><a href="index.php?page_id=12">Navigation</a></li>
+                    <li><a href="index.php?page_id=12">Navigation</a></li>
+                    <li><a href="index.php?page_id=12">Navigation</a></li>
                  </ul>
               </li>
-              <li><a href="#"><?php echo __('Donate')?></a></li>
-              <li><a href="#"><?php echo _e('In The News')?></a></li>
-              <li><a href="#"><?php echo __('Get Involved')?></a></li>
-              <li><a href="#"><?php echo __('Current Campaigns')?></a></li>
-           </ul>
-          <nav id="nav-main" class="nav-collapse" role="navigation">
-            <?php wp_nav_menu(array('theme_location' => 'primary_navigation', 'walker' => new Roots_Navbar_Nav_Walker(), 'menu_class' => 'nav')); ?>
-          </nav>
+              <li><a href="index.php?page_id=12"><?php echo __('Donate')?></a></li>
+              <li><a href="index.php?page_id=12"><?php echo _e('In The News')?></a></li>
+              <li><a href="index.php?page_id=12"><?php echo __('Get Involved')?></a></li>
+              <li><a href="index.php?page_id=12"><?php echo __('Current Campaigns')?></a></li>
+           </ul-->
+     
+            <?php wp_nav_menu(array('theme_location' => 'primary_navigation', 'walker' => new Roots_Navbar_Nav_Walker(), 'menu_class' => 'main_nav')); ?>
+         
         </div>
       </div>
     </header>

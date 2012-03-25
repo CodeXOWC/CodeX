@@ -5,7 +5,54 @@
   <footer id="content-info" class="<?php echo WRAP_CLASSES; ?>" role="contentinfo">
     <?php roots_footer_inside(); ?>
     <?php dynamic_sidebar('roots-footer'); ?>
-    <p class="copy"><small>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></small></p>
+    <div>
+    	<h2><a href="#" class="parent">About Us</a></h2>
+      <ul>
+      	<li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div>
+    <div>
+    	<h2><a href="#" class="parent">Homelessness</a></h2>
+      <ul>
+      	<li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div>
+    <div>
+    	<h2><a href="#" class="parent">Donate</a></h2>
+      <ul>
+      	<li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div>
+    <div>
+    	<h2><a href="#" class="parent">In the News</a></h2>
+      <ul>
+      	<li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div>
+    <div>
+    	<h2><a href="#" class="parent">Get Involved</a></h2>
+      <ul>
+      	<li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div>
+    <div>
+    	<h2><a href="#" class="parent">Campaigns</a></h2>
+      <ul>
+      	<li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div>
   </footer>
   <?php roots_footer_after(); ?>
 

@@ -7,17 +7,19 @@
 
 
         <?php get_template_part('loop', 'single'); ?>
-        hi
 
         <?php if ($post->post_type === 'campaigns') { ?>
 
         <h2>Take Action!</h2>
 
-        <p><a href="http://www.gis.leg.mn/OpenLayers/districts/">Contact Your Legislator</a></p>
-        <p><a href="/documents/2012/03/ten-steps-for-submitting-a-letter-to-the-editor.docx">Contact Your Local Newspaper</a></p>
+        <ul class="campaign-list">
+          <li><a href="http://www.gis.leg.mn/OpenLayers/districts/">Contact Your Legislator</a></li>
+          <li><a href="/documents/2012/03/ten-steps-for-submitting-a-letter-to-the-editor.docx">Contact Your Local Newspaper</a></li>
+        </ul>
 
         <h2>Track Legislation</h2>
-        <ul>
+
+        <ul class="campaign-list">
           <li><a href="">Link 1</a></li>
           <li><a href="">Link 1</a></li>
           <li><a href="">Link 1</a></li>
@@ -39,12 +41,12 @@
 
             if ($related_posts->have_posts()) {
               echo '<h2>Recent News</h2>';
-              echo '<ul>';
+              echo '<ul class="campaign-list">';
 
               while ( $related_posts->have_posts() ) : $related_posts->the_post(); ?>
 
                 <li>
-                <h2><a class="single-title" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?> </a></h2>
+                <h3><a class="single-title" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?> </a></h3>
                 <p class="date"><?=date('F d, Y', strtotime($post->post_date))?></p>
                 <p><?=$post->post_content?></p>
                 </li>
@@ -52,7 +54,7 @@
               <?php
               endwhile;
 
-              echo '<ul>';
+              echo '</ul>';
             }
             wp_reset_postdata();
           } ?>

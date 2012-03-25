@@ -78,18 +78,22 @@
               <li><a href="index.php?page_id=12"><?php echo __('Current Campaigns')?></a></li>
            </ul-->
             <?php wp_nav_menu(array('theme_location' => 'primary_navigation', 'walker' => new Roots_Navbar_Nav_Walker(), 'menu_class' => 'main_nav')); ?>
-            <h2 id="tagline">We mobilize communities to create solutions that will end homelessness and bring Minnesota home.</h2>        
+
+            <?php if( is_front_page() ) : ?>
+            <h2 id="tagline">We mobilize communities to create solutions that will end homelessness and bring Minnesota home.</h2>
+            <?php endif;?>
         </div>
       </div>
     </header>
   <?php roots_header_after(); ?>
 
+  <?php if( is_front_page() ) : ?>
   <section id="campaign_box">
     <ul class="span12">
       <li class="campaign1 campaign-blue">
-        <a href="">
+        <a href="/campaigns/mfip/">
             <span class="vertical-box">
-              <strong>Campaign will go into this space</strong>
+              <strong>MFIP</strong>
               <small>
                 .......................<br />
                 learn more
@@ -98,9 +102,9 @@
         </a>
       </li>
       <li class="campaign2 campaign-orange">
-        <a href="">
+        <a href="/campaigns/visible-child/">
             <span class="vertical-box">
-              <strong>Campaign will go into this space</strong>
+              <strong>Visible Child</strong>
               <small>
                 .......................<br />
                 learn more
@@ -109,9 +113,9 @@
         </a>
       </li>
       <li class="campaign3 campaign-purple">
-        <a href="">
+        <a href="/campaigns/resolutions/">
             <span class="vertical-box">
-              <strong>Campaign will go into this space</strong>
+              <strong>Resolutions</strong>
               <small>
                 .......................<br />
                 learn more
@@ -120,9 +124,9 @@
         </a>
       </li>
       <li class="campaign4 campaign-green">
-        <a href="">
+        <a href="/campaigns/homes-for-all/">
             <span class="vertical-box">
-              <strong>Campaign will go into this space</strong>
+              <strong>Homes for All</strong>
               <small>
                 .......................<br />
                 learn more
@@ -132,6 +136,7 @@
       </li>
     </ul>
   </section>
+  <?php endif;?>
 
   <?php roots_wrap_before(); ?>
   <div id="wrap" class="<?php echo WRAP_CLASSES; ?>" role="document">

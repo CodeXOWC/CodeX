@@ -20,7 +20,7 @@
   <script>window.jQuery || document.write('<script src="<?php echo get_template_directory_uri(); ?>/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/libs/hoverIntent.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/libs/functions.js"></script>
-  
+
   <?php roots_head(); ?>
   <?php wp_head(); ?>
 
@@ -41,13 +41,13 @@
             <span class="icon-bar"></span>
           </a>
           <a class="brand" href="<?php echo home_url(); ?>/">
-            <img src="/dropbox/wp/img/logo.png" alt="" />
+            <img src="/img/logo.png" alt="" />
           </a>
           <div id="social_icons">
-          	<a href="#" rel="tooltip" title="Subscribe To Email"><img src="/dropbox/wp/img/subscribe-email.png" alt="" id="subscribe_email" /></a>
-            <a href="http://www.facebook.com/HomelessCoalition" target="_blank" rel="tooltip" title="Facebook"><img src="/dropbox/wp/img/facebook-icon.png" alt="" id="facebook_icon" /></a>
-            <a href="https://twitter.com/#!/MNHomelessCo" target="_blank" rel="tooltip" title="Twitter"><img src="/dropbox/wp/img/twitter-icon.png" alt="" id="twitter_icon" /></a>
-            <a href="http://www.youtube.com/user/MNCoalition4Homeless" target="_blank" rel="tooltip" title="YouTube"><img src="/dropbox/wp/img/you-tube-icon.png" alt="" id="youtube_icon" /></a>
+          	<a href="#" rel="tooltip" title="Subscribe To Email"><img src="/img/subscribe-email.png" alt="" id="subscribe_email" /></a>
+            <a href="http://www.facebook.com/HomelessCoalition" target="_blank" rel="tooltip" title="Facebook"><img src="/img/facebook-icon.png" alt="" id="facebook_icon" /></a>
+            <a href="https://twitter.com/#!/MNHomelessCo" target="_blank" rel="tooltip" title="Twitter"><img src="/img/twitter-icon.png" alt="" id="twitter_icon" /></a>
+            <a href="http://www.youtube.com/user/MNCoalition4Homeless" target="_blank" rel="tooltip" title="YouTube"><img src="/img/you-tube-icon.png" alt="" id="youtube_icon" /></a>
           </div>
           <form role="search" method="get" id="searchform" class="form-search <?php if (is_404() || !have_posts()) { ?> well <?php } ?>" action="<?php echo home_url('/'); ?>">
             <label class="visuallyhidden" for="s"><?php _e('Search for:', 'roots'); ?></label>
@@ -84,6 +84,55 @@
       </div>
     </header>
   <?php roots_header_after(); ?>
+
+  <section id="campaign_box">
+    <ul class="span12">
+      <li class="campaign1 campaign-blue">
+        <a href="">
+            <span class="vertical-box">
+              <strong>Campaign will go into this space</strong>
+              <small>
+                .......................<br />
+                learn more
+              </small>
+            </span>
+        </a>
+      </li>
+      <li class="campaign2 campaign-orange">
+        <a href="">
+            <span class="vertical-box">
+              <strong>Campaign will go into this space</strong>
+              <small>
+                .......................<br />
+                learn more
+              </small>
+            </span>
+        </a>
+      </li>
+      <li class="campaign3 campaign-purple">
+        <a href="">
+            <span class="vertical-box">
+              <strong>Campaign will go into this space</strong>
+              <small>
+                .......................<br />
+                learn more
+              </small>
+            </span>
+        </a>
+      </li>
+      <li class="campaign4 campaign-green">
+        <a href="">
+            <span class="vertical-box">
+              <strong>Campaign will go into this space</strong>
+              <small>
+                .......................<br />
+                learn more
+              </small>
+            </span>
+        </a>
+      </li>
+    </ul>
+  </section>
 
   <?php roots_wrap_before(); ?>
   <div id="wrap" class="<?php echo WRAP_CLASSES; ?>" role="document">

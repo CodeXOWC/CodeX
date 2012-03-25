@@ -57,7 +57,7 @@
           </form>
           <ul id="main_nav">
             <li><a href="#"><?php echo __('Home')?></a></li>
-              <li><a href="#" class="parent"><?php echo __('About Us')?></a>
+              <li><a href="index.php?page_id=12" class="parent"><?php echo __('About Us')?></a>
                 <ul>
                   <li><a href="#">Navigation</a></li>
                     <li><a href="#">Navigation</a></li>

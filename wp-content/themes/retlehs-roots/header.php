@@ -76,10 +76,8 @@
               <li><a href="index.php?page_id=12"><?php echo __('Get Involved')?></a></li>
               <li><a href="index.php?page_id=12"><?php echo __('Current Campaigns')?></a></li>
            </ul-->
-           <h2 id="tagline">We mobilize communities to create solutions that will end homelessness and bring Minnesota home.</h2>
-     
             <?php wp_nav_menu(array('theme_location' => 'primary_navigation', 'walker' => new Roots_Navbar_Nav_Walker(), 'menu_class' => 'main_nav')); ?>
-         
+            <h2 id="tagline">We mobilize communities to create solutions that will end homelessness and bring Minnesota home.</h2>        
         </div>
       </div>
     </header>

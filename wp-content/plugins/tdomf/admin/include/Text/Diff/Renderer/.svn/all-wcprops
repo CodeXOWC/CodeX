@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/admin/include/Text/Diff/Renderer
+END
+inline.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/admin/include/Text/Diff/Renderer/inline.php
+END
+unified.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/admin/include/Text/Diff/Renderer/unified.php
+END
+context.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/admin/include/Text/Diff/Renderer/context.php
+END

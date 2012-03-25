@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/include
+END
+tdomf-form.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/include/tdomf-form.php
+END
+tdomf-db.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/include/tdomf-db.php
+END
+tdomf-theme-widgets.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/include/tdomf-theme-widgets.php
+END
+tdomf-log-functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/include/tdomf-log-functions.php
+END
+tdomf-notify.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/include/tdomf-notify.php
+END
+tdomf-hacks.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/include/tdomf-hacks.php
+END
+tdomf-msgs.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/include/tdomf-msgs.php
+END
+tdomf-widget-functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/include/tdomf-widget-functions.php
+END
+tdomf-upload-functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/include/tdomf-upload-functions.php
+END
+tdomf-widget-classes.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/include/tdomf-widget-classes.php
+END
+tdomf-spam.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/include/tdomf-spam.php
+END
+tdomf-template-functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/258202/tdo-mini-forms/tags/0.13.9/include/tdomf-template-functions.php
+END

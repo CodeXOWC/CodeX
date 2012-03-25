@@ -333,4 +333,21 @@ function strip_shortcode_tag( $m ) {
 
 add_filter('the_content', 'do_shortcode', 11); // AFTER wpautop()
 
+
+function get_ccevent($atts) {
+	extract( shortcode_atts( array(
+			'llr' => 'jie5m4cab',
+			'oeidk' => 'a07e5qxrbyg25e6ed47'
+		), $atts ) );
+
+	$ccurl = 'http://events.constantcontact.com/register/event?llr=' . $llr . '&oeidk=' . $oeidk;
+	$content = file_get_contents($ccurl); 
+	$content = str_replace("src=\"/register", "src=\"http://events.constantcontact.com/register", $content);
+	return $content;
+}
+
+
+add_shortcode('ccevent', 'get_ccevent');
+
+
 ?>

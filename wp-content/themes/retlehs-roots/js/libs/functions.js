@@ -19,11 +19,11 @@ $(function(){
         $('ul:first',this).css('visibility', 'hidden');
     }
 
-    $("ul#main_nav li").hoverIntent(config);
+    $("ul.main_nav li").hoverIntent(config);
     
-    //$("ul#main_nav li ul li:has(ul)").find("a:first").append(" &raquo; ");
+    //$("ul.main_nav li ul li:has(ul)").find("a:first").append(" &raquo; ");
 		
-	$('ul#main_nav a:first').css('padding-left','0');	
+	$('ul.main_nav a:first').css('padding-left','0');	
 		
 	$('#social_icons a').tooltip();
 });

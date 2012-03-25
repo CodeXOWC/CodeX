@@ -41,9 +41,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="<?php echo home_url(); ?>/">
-            <img src="/img/logo.png" alt="" />
-          </a>
+          <a class="brand" href="<?php echo home_url(); ?>/">Minnesota Coalition <span>for the</span> Homeless</a>
           <div id="social_icons">
           	<a href="#" rel="tooltip" title="Subscribe To Email"><img src="/img/subscribe-email.png" alt="" id="subscribe_email" /></a>
             <a href="http://www.facebook.com/HomelessCoalition" target="_blank" rel="tooltip" title="Facebook"><img src="/img/facebook-icon.png" alt="" id="facebook_icon" /></a>
@@ -55,7 +53,7 @@
             <input type="text" value="" name="s" id="s" class="search-query" placeholder="<?php _e('Search', 'roots'); ?> <?php bloginfo('name'); ?>">
             <input type="submit" id="searchsubmit" value="<?php _e('Search', 'roots'); ?>" class="btn">
           </form>
-          <!--ul id="main_nav">
+          <!--ul class="main_nav">
             <li><a href="#"><?php echo __('Home')?></a></li>
               <li><a href="index.php?page_id=12" class="parent"><?php echo __('About Us')?></a>
                 <ul>
@@ -78,6 +76,7 @@
               <li><a href="index.php?page_id=12"><?php echo __('Get Involved')?></a></li>
               <li><a href="index.php?page_id=12"><?php echo __('Current Campaigns')?></a></li>
            </ul-->
+           <h2 id="tagline">We mobilize communities to create solutions that will end homelessness and bring Minnesota home.</h2>
      
             <?php wp_nav_menu(array('theme_location' => 'primary_navigation', 'walker' => new Roots_Navbar_Nav_Walker(), 'menu_class' => 'main_nav')); ?>
          

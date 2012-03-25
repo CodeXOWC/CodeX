@@ -3,5 +3,6 @@ wp-config.php
 .buildpath
 .settings*
 .project
+xampp
 wp-content/uploads
 wp-content/plugins/social-media-mashup/smm-cache

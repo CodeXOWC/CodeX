@@ -17,15 +17,7 @@
           <li><a href="/documents/2012/03/ten-steps-for-submitting-a-letter-to-the-editor.docx">Contact Your Local Newspaper</a></li>
         </ul>
 
-        <h2>Track Legislation</h2>
-
-        <ul class="campaign-list">
-          <li><a href="">Link 1</a></li>
-          <li><a href="">Link 1</a></li>
-          <li><a href="">Link 1</a></li>
-        </ul>
-
-        <?php
+        <?php /*
 
           $campaign_posts = get_the_category($post->ID);
 
@@ -57,9 +49,9 @@
               echo '</ul>';
             }
             wp_reset_postdata();
-          } ?>
+          } */?>
 
-          <h2>Featured Story</h2>
+          <!-- <h2>Featured Story</h2>
           <p><a href="">Want to share your story? Email Us!</a></p>
           <p>Lorem ipsum dolor sit vamet, consectetur adipiscing elit. Morbi pellentesque arcu eget lectus ultricies volutpat. Vivamus acLorem ipsum dolor sit vamet, consectetur adipiscing elit. Morbi pellentesque arcu eget lectus ultricies volutpat. Vivamus acLorem ipsum dolor sit vamet, consectetur adipiscing elit. Morbi pellentesque arcu eget lectus ultricies volutpat. Vivamus ac</p>
           <p>Lorem ipsum dolor sit vamet, consectetur adipiscing elit. Morbi pellentesque arcu eget lectus ultricies volutpat. Vivamus ac</p>
@@ -67,7 +59,7 @@
           <h2>Campaign Resources</h2>
           <p>Subscribe to Receive Updates to This Campaign</p>
           <p>Lorem ipsum dolor sit vamet, consectetur adipiscing elit. Morbi pellentesque arcu eget lectus ultricies volutpat. Vivamus ac nulla non purus</p>
-          <p>Lorem ipsum dolor sit vamet, consectetur adipiscing elit. Morbi pellentesque arcu eget lectus ultricies volutpat. Vivamus ac nulla non purus</p>
+          <p>Lorem ipsum dolor sit vamet, consectetur adipiscing elit. Morbi pellentesque arcu eget lectus ultricies volutpat. Vivamus ac nulla non purus</p> -->
 
         <?php } ?>
         <?php roots_loop_after(); ?>

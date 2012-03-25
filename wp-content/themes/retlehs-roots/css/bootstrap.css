@@ -695,12 +695,11 @@ table.ai1ec-week-view-original.tablescroll_body,table.ai1ec-week-view-original.t
 .campaign-orange a{border-color:#f4825e;background:rgba(82, 29, 12, 0.6);}
 .campaign-green a{border-color:#aee35b;background:rgba(20, 37, 2, 0.6);}
 .campaign-purple a{border-color:rgba(124, 80, 149, 0.6);background:rgba(29, 5, 43, 0.6);}
-.single-campaigns .campaign-list{margin:18px 0;list-style:none;}
-.single-campaigns h2{padding-bottom:5px;font-size:21px;line-height:20px;font-family:'Inika',serif;color:#D94827;}
+.single-campaigns .campaign-list{margin:0 0 18px;list-style:none;}
+.single-campaigns h2{padding-bottom:18px;font-size:21px;line-height:20px;font-family:'Inika',serif;color:#D94827;}
 .single-campaigns h3{font-size:18px;font-family:'Inika',serif;}
-.single-campaigns p{padding-bottom:18px;font-size:14px;line-height:20px;}
+.single-campaigns p{margin-bottom:0;padding-bottom:18px;font-size:14px;line-height:20px;}
 .single-campaigns #main .date{padding-bottom:10px;font-size:12px;color:#666;}
-.single-campaigns .entry-title{margin:25px 0 18px;font-family:'Inika',serif;font-size:1.6em;color:#D94827;}
 .single-campaigns #comments{display:none;}
 @media (max-width:979px) and (min-width:482px){#campaign_box li{height:205px;width:205px;margin-left:90px;}#campaign_box li a{margin-top:0;} #campaign_box li.campaign1{margin-left:90px;} #campaign_box li.campaign3{clear:both;} #campaign_box li.campaign3,#campaign_box li.campaign4{margin-top:40px;}}@media (max-width:481px){#campaign_box{background:#000;}#campaign_box ul{height:auto;width:auto;} #campaign_box li{height:auto;width:auto;margin-left:0;padding:5px 0;float:none;}#campaign_box li.campaign1{margin-left:0;} #campaign_box a{margin-top:0;padding:5px 0;height:auto;width:auto;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;border-width:5px;}}.social-media-mashup .icons-grey .smm-twitter{background-image:url(/img/twitter-icon.png);}
 .social-media-mashup .icons-grey .smm-facebook{background-image:url(/img/facebook-icon.png);}
@@ -711,7 +710,7 @@ a:link{color:#b1953a;text-decoration:underline;}
 a:visited{color:#00b5cc;text-decoration:underline;}
 a:hover{color:#b1953a;text-decoration:none;}
 a:active{color:#1c3f94;text-decoration:underline;}
-body{padding-top:0 !important;background:url("/img/bg-body.jpg") repeat;border-top:#2f2f2f 20px solid;}
+body{padding-top:0 !important;background:url("/img/bg-body.jpg") repeat;border-top:#2f2f2f 20px solid;font-family:'Open Sans',sans-serif;}
 .navbar-inner{padding-top:39px;background-color:transparent;background-image:none;box-shadow:none;}
 .navbar .brand{width:549px;margin-right:20px;margin-left:0;padding:24px 0 0 0;font-family:'Inika',serif;font-size:2.6em;font-weight:bold;color:#000;text-decoration:none;}
 .navbar .brand span{font-family:'Open Sans',sans-serif;font-size:19px;font-style:italic;}
@@ -735,7 +734,7 @@ body{padding-top:0 !important;background:url("/img/bg-body.jpg") repeat;border-t
 .main_nav li li a:hover{background:#000;color:#fff;}
 #tagline{clear:left;float:left;font-family:'Inika',serif;font-size:2.8em;font-weight:normal;margin:36px 0 23px;line-height:42px;}
 .page-header{padding-top:19px;padding-bottom:0;border-bottom:none;}
-.page-header h1{font-family:'Inika',serif;font-size:1.6em;color:#d94827;}
+.page-header h1,.entry-title{font-family:'Inika',serif;font-size:1.8em;color:#d94827;}
 #main p{font-family:'Open Sans',sans-serif;font-size:1.1em;line-height:20px;}
 .well{background-color:transparent;border:none;}
 footer#content-info{background:url(/img/bg-footer.png) left top repeat-x;border-top:none;}
@@ -746,7 +745,7 @@ footer#content-info ul ul a{font-size:1.1em;}
 #get_help{font-size:27px;line-height:30px;}#get_help ul{overflow:hidden;margin:36px 0 30px;list-style:none;}
 #get_help li{margin-left:0;margin-right:30px;font-family:'Open Sans',sans-serif;font-weight:600;font-style:italic;}
 #get_help a{display:block;padding-left:48px;height:38px;line-height:38px;color:#000;background:url(../img/bg-home-bullet.png) left top no-repeat;}#get_help a:hover{background-position:0 -38px;}
-li{line-height:20px;}
+li{padding-bottom:8px;line-height:20px;font-size:14px;}
 .pull-right{float:right;}
 .pull-left{float:left;}
 .hide{display:none;}

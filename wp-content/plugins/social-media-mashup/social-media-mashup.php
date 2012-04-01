@@ -99,18 +99,18 @@ function social_media_mashup( $count = null, $echo = true ) {
 	foreach ( $feed->get_items( 0, $count ) as $item ):
 		
 		// Make links out of URLs in the text
-		$final = preg_replace('/\s(http:\/\/[^\s]+)/', ' <a href="$1">$1</a>', $item->get_description() );
+		$final = preg_replace('/\s(http:\/\/[^\s]+)/', ' <a href="$1" target="_blank">$1</a>', $item->get_description() );
 		
 		// If the description is blank, use the title
 		if ( $final == '' ) {
-			$final = preg_replace('/\s(http:\/\/[^\s]+)/', ' <a href="$1">$1</a>', $item->get_title() );
+			$final = preg_replace('/\s(http:\/\/[^\s]+)/', ' <a href="$1" target="_blank">$1</a>', $item->get_title() );
 		
 			// Some items have embeddable media - that usually comes with a thumbnail.
 			// In the case of custom YouTube feeds, there's no formatted description
 			// like in a "user uploads" YouTube feed.
 			$enclosure = $item->get_enclosure();
 			if ( $enclosure != '' ) {
-				$final .= '<br /><a href="' . $item->get_permalink() . '"><img src="' . $enclosure->get_thumbnail() . '" /></a>';
+				$final .= '<br /><a href="' . $item->get_permalink() . '" target="_blank"><img src="' . $enclosure->get_thumbnail() . '" /></a>';
 			}
 		}
 		
@@ -124,10 +124,10 @@ function social_media_mashup( $count = null, $echo = true ) {
 			$final = preg_replace('/([^:]+:\s)/', '', $final, 1 );
 			
 			// Add links to all @ mentions
-			$final = preg_replace('/@([^\s]+)/', '<a href="http://twitter.com/$1">@$1</a>', $final );
+			$final = preg_replace('/@([^\s:]+)/', '<a href="http://twitter.com/$1" target="_blank">@$1</a>', $final );
 			
 			// Add links to all hash tags
-			$final = preg_replace('/#([^\s]+)/', '<a href="http://twitter.com/search/%23$1">#$1</a>', $final );
+			$final = preg_replace('/#([^\s]+)/', '<a href="http://twitter.com/search/%23$1" target="_blank">#$1</a>', $final );
 			
 			// I <3 Regular Expressions.
 		}
@@ -145,7 +145,7 @@ function social_media_mashup( $count = null, $echo = true ) {
 		// Engage!
 		$output .= "\n\t" . '<div class="smm-item smm-' . $item_class . '">
 		' . $final . '
-		<p class="entry-meta">' . $source . '<a href="' . $item->get_permalink() . '">' . smm_friendly_date( $item->get_date( 'c' ) ) . ' &rarr;</a></p>
+		<p class="entry-meta">' . $source . '<a href="' . $item->get_permalink() . '" target="_blank">' . smm_friendly_date( $item->get_date( 'c' ) ) . ' &rarr;</a></p>
 	</div>' . "\n";
 	
 	endforeach;

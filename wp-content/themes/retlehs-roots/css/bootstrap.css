@@ -693,8 +693,8 @@ table.ai1ec-week-view-original.tablescroll_body,table.ai1ec-week-view-original.t
 .campaign-green a{border-color:#aee35b;background:rgba(20, 37, 2, 0.6);}
 .campaign-purple a{border-color:rgba(124, 80, 149, 0.6);background:rgba(29, 5, 43, 0.6);}
 .single-campaigns .campaign-list{margin:0 0 18px;list-style:none;}
-.single-campaigns h2{padding-bottom:18px;font-size:21px;line-height:20px;font-family:'Inika',serif;color:#D94827;}
-.single-campaigns h3{font-size:18px;font-family:'Inika',serif;}
+.single-campaigns h2{padding-bottom:18px;font-size:21px;line-height:20px;font-family:'Roboto-Bold',serif;font-weight:bold;color:#5e3f70;}
+.single-campaigns h3{font-size:18px;font-family:'Roboto-Bold',serif;font-weight:bold;color:#5e3f70;}
 .single-campaigns p{margin-bottom:0;padding-bottom:18px;font-size:14px;line-height:20px;}
 .single-campaigns #main .date{padding-bottom:10px;font-size:12px;color:#666;}
 .single-campaigns #comments{display:none;}

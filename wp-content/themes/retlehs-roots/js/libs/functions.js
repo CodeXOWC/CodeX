@@ -25,5 +25,4 @@ $(function(){
 		
 	$('ul.main_nav a:first').css('padding-left','0');	
 		
-	$('#social_icons a').tooltip();
 });

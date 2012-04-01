@@ -11,6 +11,10 @@
 
   <?php wp_footer(); ?>
   <?php roots_footer(); ?>
+  
+<script type="text/javascript">
+$('#social_icons a').tooltip();
+</script>
 
 </body>
 </html>

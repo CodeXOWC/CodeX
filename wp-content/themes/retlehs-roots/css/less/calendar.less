@@ -1,19 +1,19 @@
 /* General button styling */
+
+.calendar-button-selected() {
+	background: #ddd;
+	background: -o-linear-gradient( #ccc, #eee );
+	background: -ms-linear-gradient( #ccc, #eee );
+	background: -moz-linear-gradient( #ccc, #eee );
+	background: -webkit-gradient( linear, 0% 0%, 0% 100%, from(#ccc), to(#eee) );
+	background: -webkit-linear-gradient( #ccc, #eee );
+}
+
 a.ai1ec-button {
 	cursor: pointer;
-	font: 10pt/1.1em Tahoma, Geneva, sans-serif !important;
-	text-decoration: none !important;
-	color: #666 !important;
-	text-shadow: 0 1px 0 #fff;
-	-moz-text-shadow: 0 1px 0 #fff;
-	-webkit-text-shadow: 0 1px 0 #fff;
+	color: #000 !important;
 	padding: 0.4em 0.5em;
 	margin: 0.1em;
-	background: #eee;
-	background: -moz-linear-gradient( #f8f8f8, #ddd );
-	background: -webkit-gradient( linear, 0% 0%, 0% 100%, from(#f8f8f8), to(#ddd) );
-	background: -webkit-linear-gradient( #f8f8f8, #ddd );
-	background: -o-linear-gradient( #f8f8f8, #ddd );
 	box-shadow: 0 2px 2px rgba(0,0,0,0.08);
 	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.08);
 	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.08);
@@ -25,14 +25,18 @@ a.ai1ec-button {
 	border-width: 1px;
 	display: inline-block;
 	white-space: nowrap;
+	text-decoration: none !important;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+	background: linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
 }
 a.ai1ec-button:hover {
-	color: #444 !important;
-	background: #ddd;
-	background: -moz-linear-gradient( #eee, #ccc );
-	background: -webkit-gradient( linear, 0% 0%, 0% 100%, from(#eee), to(#ccc) );
-	background: -webkit-linear-gradient( #eee, #ccc );
-	background: -o-linear-gradient( #eee, #ccc );
+	color: #000;
 }
 a.ai1ec-button.ai1ec-selected {
 	color: #000 !important;
@@ -183,6 +187,7 @@ label.ai1ec-label {
 	margin: 0;
 }
 .ai1ec-agenda-widget-view {
+	padding-top: 1em;
 	font-size: 0.8em !important;
 	overflow: hidden;
 }
@@ -205,16 +210,10 @@ label.ai1ec-label {
 }
 .ai1ec-agenda-widget-view .ai1ec-date {
 	overflow: hidden;
-	margin: 0 !important;
+	margin: 0 0 1em;
 	padding: 0 !important;
 	border-top: 1px solid #f2f2f2;
 	border-bottom: 1px solid #fff;
-	background: #f8f8f8;
-	background: -o-linear-gradient( #f2f2f2 1em, #fff );
-	background: -ms-linear-gradient( #f2f2f2 1em, #fff );
-	background: -moz-linear-gradient( #f2f2f2 1em, #fff );
-	background: -webkit-gradient( linear, 0 1em, 0 100%, from(#f2f2f2), to(#fff) );
-	background: -webkit-linear-gradient( #f2f2f2 1em, #fff );
 }
 .ai1ec-agenda-widget-view .ai1ec-date.ai1ec-today {
 	border-top: 1px solid #eec;
@@ -230,7 +229,7 @@ label.ai1ec-label {
 .ai1ec-agenda-widget-view h3.ai1ec-date-title {
 	width: 3.5em;
 	float: left;
-	margin: 0 0.5em 0.5em !important;
+	margin: 0 0.5em 0.5em 0 !important;
 	font: 1em/1.1em Tahoma, Geneva, sans-serif !important;
 	color: #444;
 	text-shadow: 0 1px 0 #fff;
@@ -240,7 +239,7 @@ label.ai1ec-label {
 	-webkit-text-shadow: 0 1px 0 #fff;
 	line-height: 1.1em;
 	text-align: center;
-	border: 2px solid #7e9dbd;
+	border: 2px solid #D94827;
 	border-radius: 0 0 5px 5px;
 	-o-border-radius: 0 0 0.5em 0.5em;
 	-moz-border-radius: 0 0 0.5em 0.5em;
@@ -263,7 +262,7 @@ label.ai1ec-label {
 	-ms-text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
 	-moz-text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
 	-webkit-text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
-	background: #7e9dbd;
+	background: #D94827;
 	font-size: 0.9em !important;
 	padding: 0.1em 0 0.2em;
 	text-transform: uppercase;
@@ -285,26 +284,27 @@ label.ai1ec-label {
 	clear: right;
 	overflow: hidden;
 	font-size: 1.2em;
-	margin: 0.5em 0 !important;
 	padding: 0 !important;
 	line-height: 1.3em;
 }
 .ai1ec-agenda-widget-view .ai1ec-event a {
 	display: block;
-	background: #fff;
-	border: 1px solid #ddd;
 	border-radius: 0.4em;
 	-o-border-radius: 0.4em;
 	-ms-border-radius: 0.4em;
 	-moz-border-radius: 0.4em;
 	-webkit-border-radius: 0.4em;
 	padding: 0.2em 0.4em !important;
-	text-decoration: none !important;
-	color: #568;
+	text-decoration: none;
+	font-family: 'Open Sans',sans-serif;
+	color: #000;
+
+	&:hover {
+		text-decoration: underline;
+	}
 }
 .ai1ec-agenda-widget-view .ai1ec-event a:hover {
-	border-color: #aaa;
-	text-decoration: none !important;
+	
 }
 .ai1ec-agenda-widget-view .ai1ec-event-time {
 	font-weight: bold;
@@ -372,19 +372,14 @@ label.ai1ec-label {
 .ai1ec-action-week #ai1ec-view-week,
 .ai1ec-action-agenda #ai1ec-view-agenda {
 	color: #000;
-	background: #ddd;
-	background: -o-linear-gradient( #ccc, #eee );
-	background: -ms-linear-gradient( #ccc, #eee );
-	background: -moz-linear-gradient( #ccc, #eee );
-	background: -webkit-gradient( linear, 0% 0%, 0% 100%, from(#ccc), to(#eee) );
-	background: -webkit-linear-gradient( #ccc, #eee );
+	.calendar-button-selected();
 }
 
 /* View container */
 #ai1ec-calendar-view-container {
 	position: relative;
 	clear: both;
-	margin-bottom: 0.2em;
+	margin: 1em 0 0.2em;
 }
 table.ai1ec-calendar-toolbar {
 	width: 100% !important;
@@ -625,15 +620,14 @@ table.ai1ec-week-view-original.tablescroll_body tr:first-child td {
 }
 .ai1ec-month-view .ai1ec-today,
 .ai1ec-week-view .ai1ec-today {
-	background: #ffd !important;
-	background: rgba(255,255,128,0.3) !important;
+	background: #fcd5ae;
 }
 .ai1ec-month-view .ai1ec-date {
 	text-align: right;
 	font-size: 10pt;
 	line-height: 12pt;
 	padding: 0 0.4em;
-	background: #eaf4ff;
+	background: #ffd1a1;
 	font: 8pt Tahoma, Geneva, sans-serif;
 	color: #666;
 	text-shadow: 0 1px 0 #fff;
@@ -966,13 +960,6 @@ table.ai1ec-week-view-original.tablescroll_body tr:first-child td {
 	overflow: hidden;
 	margin: 0 !important;
 	padding: 0 !important;
-	border-top: 1px solid #f2f2f2;
-	background: #f2f2f2 !important;
-	background: -o-linear-gradient( #f2f2f2 1em, rgba(255,255,255,0) ) !important;
-	background: -ms-linear-gradient( #f2f2f2 1em, rgba(255,255,255,0) ) !important;
-	background: -moz-linear-gradient( #f2f2f2 1em, rgba(255,255,255,0) ) !important;
-	background: -webkit-gradient( linear, 0 1em, 0 100%, from(#f2f2f2), to(rgba(255,255,255,0)) ) !important;
-	background: -webkit-linear-gradient( #f2f2f2 1em, rgba(255,255,255,0) ) !important;
 }
 .ai1ec-agenda-view .ai1ec-date.ai1ec-today {
 	border-top: 1px solid #ffd;
@@ -997,7 +984,7 @@ table.ai1ec-week-view-original.tablescroll_body tr:first-child td {
 	-webkit-text-shadow: 0 1px 0 #fff;
 	line-height: 1.1em;
 	text-align: center;
-	border: 2px solid #7e9dbd;
+	border: 2px solid #D94827;
 	border-radius: 0 0 5px 5px;
 	-o-border-radius: 0 0 0.5em 0.5em;
 	-moz-border-radius: 0 0 0.5em 0.5em;
@@ -1007,12 +994,6 @@ table.ai1ec-week-view-original.tablescroll_body tr:first-child td {
 	-ms-box-shadow: 0 2px 2px rgba(0,0,0,0.08);
 	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.08);
 	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.08);
-	background: #fff;
-	background: -o-linear-gradient( #fff 1em, #eee );
-	background: -ms-linear-gradient( #fff 1em, #eee );
-	background: -moz-linear-gradient( #fff 1em, #eee );
-	background: -webkit-gradient( linear, 0% 1em, 0% 100%, from(#fff), to(#eee) );
-	background: -webkit-linear-gradient( #fff 1em, #eee );
 }
 .ai1ec-agenda-view .ai1ec-month {
 	text-shadow: 0 -1px 0 #000;
@@ -1020,7 +1001,7 @@ table.ai1ec-week-view-original.tablescroll_body tr:first-child td {
 	-ms-text-shadow: 0 -1px 0 #000;
 	-moz-text-shadow: 0 -1px 0 #000;
 	-webkit-text-shadow: 0 -1px 0 #000;
-	background: #7e9dbd;
+	background: #D94827;
 	font-size: 0.8em !important;
 	padding: 0.1em;
 	text-transform: uppercase;
@@ -1045,8 +1026,6 @@ table.ai1ec-week-view-original.tablescroll_body tr:first-child td {
 	text-decoration: none;
 	padding: 0.1em 0.3em !important;
 	margin: 0.5em 0 !important;
-	background: #fff !important;
-	border: 1px solid #ddd;
 	border-radius: 0.5em;
 	-o-border-radius: 0.5em;
 	-moz-border-radius: 0.5em;
@@ -1064,7 +1043,6 @@ table.ai1ec-week-view-original.tablescroll_body tr:first-child td {
 	font-family: Tahoma, Geneva, sans-serif !important;
 	cursor: pointer;
 	line-height: 1.3em;
-	color: #568;
 	text-shadow: 0 1px 0 #fff;
 	-o-text-shadow: 0 1px 0 #fff;
 	-ms-text-shadow: 0 1px 0 #fff;
@@ -1079,9 +1057,9 @@ table.ai1ec-week-view-original.tablescroll_body tr:first-child td {
 	line-height: 1.3em;
 }
 .ai1ec-agenda-view .ai1ec-event-title {
-	margin: 0 0 0 8em;
-	font-size: 10pt !important;
-	font-weight: normal;
+	clear: both;
+	padding-top: .2em;
+	font-size: 1.5em;
 }
 .ai1ec-agenda-view .ai1ec-event.ai1ec-allday {
 	padding: 0 !important;

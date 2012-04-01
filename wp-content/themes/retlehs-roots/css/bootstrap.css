@@ -703,6 +703,7 @@ table.ai1ec-week-view-original.tablescroll_body,table.ai1ec-week-view-original.t
 .social-media-mashup .icons-grey .smm-rss{background-image:url(/img/facebook-icon.png);}
 .social-media-mashup .icons-grey .smm-rss{background-image:url(/img/facebook-icon.png);}
 .social-media-mashup .icons-grey .smm-youtube{background-image:url(/img/youtube-icon.png);}
+.social-media-mashup .sharing{display:none;}
 a:link{color:#b1953a;text-decoration:underline;}
 a:visited{color:#00b5cc;text-decoration:underline;}
 a:hover{color:#b1953a;text-decoration:none;}

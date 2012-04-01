@@ -1,8 +1,8 @@
 <?php get_header(); ?>
   <section id="get_help">
     <ul>
-        <li class="span3"><a href="">How Can I Help?</a></li>
-        <li class="span3"><a href="">Get Help</a></li>
+        <li class="span3"><a href="/about-us/members/">How Can I Help?</a></li>
+        <li class="span3"><a href="/about-homelessness/">Get Help</a></li>
     </ul>
   </section>
   <?php roots_content_before(); ?>

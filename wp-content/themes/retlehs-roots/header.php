@@ -101,9 +101,9 @@
         </a>
       </li>
       <li class="campaign2 campaign-orange">
-        <a href="/campaigns/visible-child/">
+        <a href="/campaigns/voter-id/">
             <span class="vertical-box">
-              <strong>Visible Child</strong>
+              <strong>Voter ID</strong>
               <small>
                 .......................<br />
                 learn more

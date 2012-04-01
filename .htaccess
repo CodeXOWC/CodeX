@@ -560,6 +560,7 @@ RewriteEngine On
 RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteRule ^css/(.*) /wp-content/themes/retlehs-roots/css/$1 [QSA,L]
+RewriteRule ^fonts/(.*) /wp-content/themes/retlehs-roots/fonts/$1 [QSA,L]
 RewriteRule ^js/(.*) /wp-content/themes/retlehs-roots/js/$1 [QSA,L]
 RewriteRule ^img/(.*) /wp-content/themes/retlehs-roots/img/$1 [QSA,L]
 RewriteRule ^plugins/(.*) /wp-content/plugins/$1 [QSA,L]

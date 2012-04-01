@@ -710,9 +710,9 @@ a:active{color:#1c3f94;text-decoration:underline;}
 body{padding-top:0 !important;background:url("/img/bg-body.jpg") repeat;border-top:#2f2f2f 20px solid;font-family:'Open Sans',sans-serif;}
 .navbar-inner{padding-top:39px;background-color:transparent;background-image:none;box-shadow:none;}
 .navbar .brand{width:546px;height:31px;margin-right:20px;margin-left:0;padding:24px 0 0 0;}
+.espanol{float:left;margin:26px 20px 0 0;font-family:'Inika',serif;}
 #social_icons{float:left;padding-top:26px;}
 #social_icons a{position:relative;}
-#social_icons .espanol{top:10px;left:-20px;font-family:'Inika',serif;}
 #subscribe_email{width:35px;height:27px;margin-right:14px;}
 #facebook_icon{width:25px;height:24px;margin-right:19px;}
 #twitter_icon{width:24px;height:24px;margin-right:20px;}

@@ -11,3 +11,7 @@ if (Modernizr.mq('(max-width: 420px)')) {
 		}
 	});
 }
+
+$(window).on('load', function () {
+	$('#social_icons a').tooltip();
+});

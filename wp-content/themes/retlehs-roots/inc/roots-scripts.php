@@ -16,8 +16,8 @@ function roots_scripts() {
     $base = '';
   }
 
-  wp_register_script('roots_plugins', $base . '/js/plugins.js', false, null, false);
-  wp_register_script('roots_script', $base . '/js/script.js', false, null, false);
+  wp_register_script('roots_plugins', $base . '/js/plugins.js', false, null, true);
+  wp_register_script('roots_script', $base . '/js/script.js', false, null, true);
   wp_enqueue_script('roots_plugins');
   wp_enqueue_script('roots_script');
 }

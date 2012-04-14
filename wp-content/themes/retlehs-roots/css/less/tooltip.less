@@ -1,13 +1,15 @@
 // TOOLTIP
 // ------=
 
-.tooltip {
+.tooltip.fade {
   position: absolute;
   z-index: @zindexTooltip;
   display: block;
   visibility: visible;
-  padding: 5px;
   font-size: 11px;
+  width: auto !important;
+  border: 0 !important;
+  background: none !important;
   .opacity(0);
   &.in     { .opacity(80); }
   &.top    { margin-top:  -2px; }
@@ -21,7 +23,7 @@
 }
 .tooltip-inner {
   max-width: 200px;
-  padding: 3px 8px;
+  padding: .5em 8px;
   color: @white;
   text-align: center;
   text-decoration: none;

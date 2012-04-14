@@ -704,7 +704,8 @@ table.ai1ec-week-view-original.tablescroll_body,table.ai1ec-week-view-original.t
 .social-media-mashup .icons-grey .smm-rss{background-image:url(/img/facebook-icon.png);}
 .social-media-mashup .icons-grey .smm-youtube{background-image:url(/img/youtube-icon.png);}
 .social-media-mashup .sharing{display:none;}
-#social_icons{float:left;padding:23px 0 0 30px;}#social_icons a{float:left;margin-right:15px;}#social_icons a:last-child{margin-right:0;}
+#social_icons{float:left;padding:23px 0 0 30px;}#social_icons a{display:inline-block;margin-right:15px;}#social_icons a:last-child{margin-right:0;}
+#social_icons a img{float:left;}
 #subscribe_email{width:35px;height:27px;position:relative;top:-4px;left:6px;}
 #facebook_icon{width:25px;}
 #twitter_icon{width:24px;height:24px;}

@@ -43,10 +43,10 @@
           </a>
           <a class="brand" href="<?php echo home_url(); ?>/"><img src="/img/newLogo.png" alt="Minnesota Coalition for the Homeless" /></a>
           <div id="social_icons">            
-          	<a href="/index.php?p=386" rel="tooltip" title="Subscribe To Email"><img src="/img/subscribe-email.png" alt="" id="subscribe_email" /></a>
-            <a href="http://www.facebook.com/HomelessCoalition" target="_blank" rel="tooltip" title="Facebook"><img src="/img/facebook-icon.png" alt="" id="facebook_icon" /></a>
-            <a href="https://twitter.com/#!/MNHomelessCo" target="_blank" rel="tooltip" title="Twitter"><img src="/img/twitter-icon.png" alt="" id="twitter_icon" /></a>
-            <a href="http://www.youtube.com/user/MNCoalition4Homeless" target="_blank" rel="tooltip" title="YouTube"><img src="/img/you-tube-icon.png" alt="" id="youtube_icon" /></a>
+          	<a id="subscribe_email" href="/index.php?p=386" rel="tooltip" title="Subscribe To Email"><img src="/img/subscribe-email.png" alt="Subscript to Email" /></a>
+            <a id="facebook_icon" href="http://www.facebook.com/HomelessCoalition" target="_blank" rel="tooltip" title="Facebook"><img src="/img/facebook-icon.png" alt="Facebook" /></a>
+            <a id="twitter_icon" href="https://twitter.com/#!/MNHomelessCo" target="_blank" rel="tooltip" title="Twitter"><img src="/img/twitter-icon.png" alt="Twitter" /></a>
+            <a id="youtube_icon" href="http://www.youtube.com/user/MNCoalition4Homeless" target="_blank" rel="tooltip" title="YouTube"><img src="/img/you-tube-icon.png" alt="YouTube" /></a>
           </div>
           <form role="search" method="get" id="searchform" class="form-search <?php if (is_404() || !have_posts()) { ?> well <?php } ?>" action="<?php echo home_url('/'); ?>">
             <label class="visuallyhidden" for="s"><?php _e('Search for:', 'roots'); ?></label>

@@ -11,12 +11,12 @@ $(function(){
     
     function doOpen() {
         $(this).addClass("hover");
-        $('ul:first',this).css('visibility', 'visible');
+        $('ul:first',this).css('display','none');
     }
  
     function doClose() {
         $(this).removeClass("hover");
-        $('ul:first',this).css('visibility', 'hidden');
+        $('ul:first',this).css('display','none');
     }
 
     $("ul.main_nav li").hoverIntent(config);

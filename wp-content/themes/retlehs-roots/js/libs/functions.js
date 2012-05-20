@@ -11,7 +11,7 @@ $(function(){
     
     function doOpen() {
         $(this).addClass("hover");
-        $('ul:first',this).css('display','none');
+        $('ul:first',this).css('display','block');
     }
  
     function doClose() {
